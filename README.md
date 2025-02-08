@@ -1,11 +1,8 @@
 # Filify - File Organizer 🗂️
 
----
 Filify is a Python-based tool designed to automatically organize files in a specified directory (e.g., `Downloads`) based on their file extensions. It categorizes files into predefined folders, logs file movements, and supports undo functionality with commit IDs.
 
 ## Features:
-
----
 - **Organize Files**: Automatically sorts files into categorized folders based on their extensions (e.g., images, documents, media).
 - **Undo Functionality**: Restore files by commit ID or undo the last N moves.
 - **Log File Movements**: Keeps a log of all file movements with unique commit IDs for easy tracking and undoing.
@@ -13,7 +10,6 @@ Filify is a Python-based tool designed to automatically organize files in a spec
 
 ## Usage:
 
----
 ### Basic Usage
 1. **Organize Files**: Simply run the script to organize files in the desired folder:
 ```commandline
@@ -40,14 +36,10 @@ crontab -e
 3. Save and Exit
 
 ## Configuration:
-
----
 Modify `config.json` to change the directory and file extensions as per your needs.
 
 ## Log File:
-
----
 All file moves are logged in a `filify.log` file, with each action having a unique commit ID. This allows for easy tracking and undoing of specific file moves.
 
----
+
 Enjoy a cleaner, more organized workspace with Filify! 🚀
