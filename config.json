@@ -1,0 +1,15 @@
+{
+    "directory": "/Users/vikas.chaurasiya/Downloads",
+    "group_extensions": {
+        "images": ["jpeg", "jpg", "png", "avif"],
+        "docs": ["pdf", "docx", "xmind", "pptx"],
+        "text": ["txt", "py", "go"],
+        "data": ["json"],
+        "spreadsheets": ["csv", "xlsx"],
+        "installers": ["dmg"],
+        "compressed": ["zip"],
+        "books": ["epub", "mobi"],
+        "media": ["mp4", "mp3", "wav", "mid", "mov"]
+    },
+    "unsorted_folder": "Unsorted"
+}
