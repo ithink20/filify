@@ -31,7 +31,7 @@ crontab -e
 ```
 2. Add the following cron job to run the script daily at 10 AM: ([ref: cron-expression](https://crontab.guru/))
 ```commandline
-0 10 * * * /usr/bin/python3 /path/to/filify.py
+0 10 * * * /usr/bin/python3 /path/to/filify.py >> /Users/vikas.chaurasiya/Desktop/All/vikasc-personal/filify/cron.log 2>&1
 ```
 3. Save and Exit
 
